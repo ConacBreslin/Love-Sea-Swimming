@@ -8,7 +8,7 @@
 
 body {
     font-family: "Noto Sans";
-    color: #3540b3;
+    color: ##3c6867;
     
 }
 
@@ -16,7 +16,7 @@ h2{
     font-family: Cuprum;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #071286;
+    color: #144c4f;
 }
 
 #logo{
@@ -45,9 +45,34 @@ h2{
 }
 
 #menu a:hover{
-    border-bottom: 3px solid #3540b3;
+    border-bottom: 3px solid #3c6867;
 }
 
 .active{
-    border-bottom: 1px solid #3540b3;
+    border-bottom: 3px solid #3c6867 ;
+}
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url(../images/man-in-sea.jpg) no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.6);
+    }
 }
