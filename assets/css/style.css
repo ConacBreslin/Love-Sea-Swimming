@@ -8,7 +8,7 @@
 
 body {
     font-family: "Noto Sans";
-    color: #B0A8B9;
+    color: #3540b3;
     
 }
 
@@ -16,7 +16,7 @@ h2{
     font-family: Cuprum;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #4B4453;
+    color: #071286;
 }
 
 #logo{
@@ -26,11 +26,28 @@ h2{
 
 #menu{
     font-size: 130%;
-    list-style-type: square;
+    list-style-type: none;
     letter-spacing: 2px;
+}
+
+#logo, #menu{
+    line-height: 75px;
 }
 
 #menu li{
     float: right;
-    margin-right: 30px;
+    margin-right: 60px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 3px solid #3540b3;
+}
+
+.active{
+    border-bottom: 1px solid #3540b3;
 }
