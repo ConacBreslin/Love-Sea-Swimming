@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@700&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&family=Noto+Sans&display=swap');
 
 * {
     margin:0;
@@ -8,4 +8,29 @@
 
 body {
     font-family: "Noto Sans";
+    color: #B0A8B9;
+    
+}
+
+h2{
+    font-family: Cuprum;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4B4453;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+}
+
+#menu{
+    font-size: 130%;
+    list-style-type: square;
+    letter-spacing: 2px;
+}
+
+#menu li{
+    float: right;
+    margin-right: 30px;
 }
