@@ -12,8 +12,10 @@ body {
     
 }
 
+/* headings and logo */
+
 h2{
-    font-family: Cuprum;
+    font-family: Cuprum, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #144c4f;
@@ -24,6 +26,8 @@ h2{
     font-size: 280%;
     margin-left: 30px;
 }
+
+/* navigation links */
 
 
 #menu{
@@ -54,6 +58,8 @@ h2{
     border-bottom: 3px solid #096264;
 }
 
+/* hero image and cover text */
+
 #hero-image{
     height:600px;
     width: 100%;
@@ -71,6 +77,8 @@ h2{
     overflow: hidden;
     position: relative;
 }
+
+/* nhero image zoom */
 
 @keyframes hero-zoom {
     from{
@@ -115,6 +123,8 @@ h2{
     position: absolute;
 
 }
+
+/* club ethos */
 
 #club-ethos{
     height: 600px;
@@ -168,6 +178,8 @@ hr {
     text-align: right;
 }
 
+/* ethos image */
+
 #welcome {
     margin: 20px 0;
     text-align: center;
@@ -191,6 +203,7 @@ hr {
     border-radius: 50%;
 }
 
+/* swim times */
 
 #times{
     
@@ -217,6 +230,8 @@ hr {
     color: #fafafa;
 }
 
+/* footer */
+
 footer{
     height: 150px;
 }
@@ -237,6 +252,8 @@ footer{
     color: #096264;
 }
 
+/* gallery photos */
+
 #photo {
     clear: both;
     line-height: 0;
@@ -248,62 +265,14 @@ footer{
     width: 100%;
 }
 
+/* sign up form */
 
 
-.form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-.signup-form {
-    margin-top: 150px;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #f16c6b;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block;
-}
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
 
 
+/* media queries */
+
+/* media queries for  1200 and less */
 @media screen and (max-width: 1396px){
     #club-ethos{
         width: 65%;
@@ -343,6 +312,9 @@ footer{
         display: none;
     }
 }
+
+
+/* media queries for 942  and less */
 
 @media screen and (max-width: 943px){
 
@@ -385,6 +357,8 @@ footer{
         column-count: 3;
     }
 }
+
+/* media queries for 800px and less */
 
 @media screen and (max-width: 800px){
     #photo{

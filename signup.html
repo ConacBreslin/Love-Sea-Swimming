@@ -35,29 +35,37 @@
    
  
  <section class="form-section">
-       <form method="POST" action="https://formdump.codeinstitute.net/">
-           <h2> Let's get you signed up!</h2>
+       <form method="POST" action="https://formdump.codeinstitute.net/ class="signup-form">
+           <h2> Let's get you swimming! <i class="fas fa-swimmer"></i></h2>
+
+           <br>
            
            <label for="fname">First Name</label>
-           <input id="fname" type="text" name="first_name" required/>
+           <input id="fname" type="text" name="first_name" class="text-input" required/>
            <label for="lname">Last Name</label>
-           <input id="lname" type="text" name="last_name" required/>
+           <input id="lname" type="text" name="last_name" class="text-input" required/>
            <label for="email">Email Address</label>
-           <input id="email" type="email" name="email_address" required />
-           <label for="urban">Urban</label>
-           <input id="urban" type="radio" name="swimming_preference" value="urban" required/>
-           <label for="country">Country</label>
-           <input id="country" type="radio" name="swimming_preference" value="country" />
+           <input id="email" type="email" name="email_address" class="text-input" required />
+           <br>
+           <p>I will be coming to</p>
+           <label for="fortyfoot">Forty Foot</label>
+           <input id="fortyfoot" type="radio" name="location_preference" value="fortyfoot" required/>
+           <label for="brittas">Brittas Bay</label>
+           <input id="brittas" type="radio" name="location_preference" value="brittas"/>
            <label for="both">Both</label>
-           <input id="both" type="radio" name="swimming_preference" value="both"/>
+           <input id="both" type="radio" name="location_preference" value="both"/>
+
+           <br>
+
            <label for="driver">I can offer lifts to Brittas Bay</label>
            <input id="driver" type="radio" name="travel_preference" value="driver"/>
            <label for="needlift">I would like a lift to Brittas Bay</label>
-           <input id="needlift" type="radio" name="travel_preference" value="driver"/>
+           <input id="needlift" type="radio" name="travel_preference" value="passenger"/>
            <label for="alone">I will travel to Brittas Bay on my own</label>
            <input id="alone" type="radio" name="travel_preference" value="alone"/>
-           
-           <input type="submit" value="Let's Swim!"/>
+           <br>
+           <button type=" submit" class="join-button" >Let's Swim! <br> <i class="fas fa-swimmer"></i></button>
+           <input type="submit" value="Let's Swim!" class="join-button" />
        </form>
        
        
