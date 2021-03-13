@@ -192,11 +192,26 @@ hr {
 
 
 #times{
-    color: #ffffff;
+    
     background-image: url(../images/many-swimmers.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .55);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 75px 0 0 10px;
+    text-align: center;
+    margin: 120px;
+}
+
+#times h2 {
+    color: #fafafa;
 }
