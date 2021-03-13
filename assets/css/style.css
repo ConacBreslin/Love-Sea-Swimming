@@ -267,7 +267,25 @@ footer{
 
 /* sign up form */
 
+.form-section {
+    clear: both;
+    background: url(../images/sunsetsea.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
+.signup-form {
+
+    margin-top: 150px;
+    color: #096264;
+    background-color: rgba (20, 198, 201, 0.6) #14c6c9;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+
+}
 
 
 /* media queries */
