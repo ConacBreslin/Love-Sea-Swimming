@@ -285,7 +285,7 @@ footer{
 
 .signup-form {
 
-    margin-top: 20px;
+    margin-top: 5px;
     color: #096264;
     font-weight: 600;
     background-color: rgba(132, 183, 183, 0.6);
@@ -298,8 +298,8 @@ footer{
 
 .signup-form  h2{
     color: #096264;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .text-input{
